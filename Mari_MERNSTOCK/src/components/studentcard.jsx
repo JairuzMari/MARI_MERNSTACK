@@ -3,7 +3,7 @@ import React from 'react';
 export default function StudentCard({ student }) {
     if (!student) return null;
 
-    const { name, studentNo, age, gender, course } = student;
+    const { name, studentNo, age, gender, course } = student; //comment
 
     return (
         <div className="student-card">

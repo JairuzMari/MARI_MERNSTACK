@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function StudentCard({ student }) {
-    if (!student) return null;
+export default function TeacherCard({ teacher }) {
+    if (!teacher) return null;
 
-    const { name, studentNo, age, gender, course } = student;
+    const { name, employeeNumber, department, specialization, gender } = teacher;
 
     return (
-        <div className="student-card">
+        <div className="teacher-card">
             <span className="accent-bar"></span>
 
             <div className="card-header">
@@ -15,8 +15,8 @@ export default function StudentCard({ student }) {
 
             <div className="card-body">
                 <div className="info-row">
-                    <span className="label">Student No:</span>
-                    <span className="value gold">{studentNo || "N/A"}</span>
+                    <span className="label">Employee No:</span>
+                    <span className="value gold">{employeeNumber || "N/A"}</span>
                 </div>
 
                 <div className="info-row">
@@ -25,13 +25,13 @@ export default function StudentCard({ student }) {
                 </div>
 
                 <div className="info-row">
-                    <span className="label">Age:</span>
-                    <span className="value">{age ? `${age} yrs old` : "N/A"}</span>
+                    <span className="label">Department:</span>
+                    <span className="value">{department || "N/A"}</span>
                 </div>
 
                 <div className="info-row course-row">
-                    <span className="label">Course:</span>
-                    <span className="course-badge">{course || "N/A"}</span>
+                    <span className="label">Specialization:</span>
+                    <span className="course-badge">{specialization || "N/A"}</span>
                 </div>
             </div>
         </div>

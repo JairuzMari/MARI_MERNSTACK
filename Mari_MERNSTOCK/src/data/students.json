@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Chillz",
+        "studentNo": "202405710",
+        "age": 20,
+        "gender": "Female",
+        "course": "BSIT",
+        "bday": "March 15, 2004"
+    },
+    {
+        "id": 2,
+        "name": "Jaja",
+        "studentNo": "2024010101",
+        "age": 20,
+        "gender": "Female",
+        "course": "BSCS",
+        "bday": "August 22, 2004"
+    },
+    {
+        "id": 3,
+        "name": "Mari",
+        "studentNo": "2024020202",
+        "age": 20,
+        "gender": "Male",
+        "course": "BSIT",
+        "bday": "January 10, 2004"
+    }
+]
